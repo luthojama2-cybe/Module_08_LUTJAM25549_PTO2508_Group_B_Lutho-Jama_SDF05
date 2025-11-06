@@ -9,21 +9,21 @@
    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="font-sans">
-   <footer class="bg-[#659f8f] p-10">
+   <footer class="bg-[#659f8f] p-10 md:absolute bottom-0 w-full">
        <!-- Container -->
-       <div class="flex flex-col">
+       <div class="">
           <!-- Form -->
-           <form class="">
-               <label class="text-xl font-bold w-full" for="email">Subscribe to our newsletter for updates</label>
+           <form class="md:w-full">
+               <label class="text-xl font-bold w-full md:w-[400px]" for="email">Subscribe to our newsletter for updates</label>
                <br>
-               <input class="mt-3 w-full p-1.5 rounded" type="email" name="Email" id="email" placeholder="Email Address">
-               <button class="mt-3 w-full px-4 py-2 rounded bg-[#DD6B3D]" type="submit"><a class="text-white font-bold" href="#">Subscribe</a></button>
+               <input class="mt-3 w-full p-1.5 rounded md:w-[400px]" type="email" name="Email" id="email" placeholder="Email Address">
+               <button class="mt-3 w-full px-4 py-2 rounded bg-[#DD6B3D] md:w-[400px]" type="submit"><a class="text-white font-bold" href="#">Subscribe</a></button>
           </form>
            <!-- Quick Links -->
-            <div class="mt-4 flex flex-col gap-4">
+            <div class="mt-4 grid-cols-2">
             <h4 class="font-bold ">Quick Links</h4>
            <div>
-              <ul class="flex flex-col gap-2">
+              <ul class="grid-cols-3">
                    <li><a href="#">Home</a></li>
                    <li><a href="#">Who We Are</a></li>
                    <li><a href="#">Our Philosophy</a></li>
@@ -31,10 +31,10 @@
             </div>
             </div>
             <!-- Technologies -->
-             <div class="mt-4 flex flex-col gap-4">
+             <div class="mt-4 grid-cols-2">
             <h4 class="font-bold">Technologies</h4>
             <div>
-               <ul class="flex flex-col gap-2">
+               <ul class="grid-cols-3">
                    <li><a href="#">HTML</a></li>
                    <li><a href="#">CSS</a></li>
                    <li><a href="#">JavaScript</a></li>
@@ -43,7 +43,7 @@
         </div>
         </div>
             <!-- Horizontal line -->
-             <hr class="bg-[#DD6B3D] mt-4">
+             <hr class="border-[#DD6B3D] mt-4">
              <!-- Image -->
               <div class="mt-4">
                 <a href="#">
