@@ -9,19 +9,22 @@
    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="font-sans">
-   <footer class="bg-[#659f8f] p-10 md:absolute bottom-0 w-full">
+   <footer class="bg-[#659f8f] p-10 absolute bottom-0 w-full">
        <!-- Container -->
        <div class="">
           <!-- Form -->
            <form class="md:w-full">
                <label class="text-xl font-bold w-full md:w-[400px]" for="email">Subscribe to our newsletter for updates</label>
                <br>
-               <input class="mt-3 w-full p-1.5 rounded md:w-[400px]" type="email" name="Email" id="email" placeholder="Email Address">
-               <button class="mt-3 w-full px-4 py-2 rounded bg-[#DD6B3D] md:w-[400px]" type="submit"><a class="text-white font-bold" href="#">Subscribe</a></button>
+               <input class="mt-3 w-full rounded md:w-[250px] p-2.5" type="email" name="Email" id="email" placeholder="Email Address">
+               <button class="mt-3 w-full px-4 py-2 rounded bg-[#DD6B3D] md:w-[100px] ml-2  text-sm font-light" type="submit"><a class="text-white font-bold" href="#">Subscribe</a></button>
           </form>
+          <br>
+          <div class="grid-cols-2 gap-2 md:flex justify-between ">
            <!-- Quick Links -->
             <div class="mt-4 grid-cols-2">
             <h4 class="font-bold ">Quick Links</h4>
+            <br>
            <div>
               <ul class="grid-cols-3">
                    <li><a href="#">Home</a></li>
@@ -33,6 +36,7 @@
             <!-- Technologies -->
              <div class="mt-4 grid-cols-2">
             <h4 class="font-bold">Technologies</h4>
+            <br>
             <div>
                <ul class="grid-cols-3">
                    <li><a href="#">HTML</a></li>
@@ -50,6 +54,7 @@
                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
                        </a>
               </div>
+       </div>
    </footer>
 
 </body>
